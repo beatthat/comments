@@ -1,2 +1,1 @@
-# safe-refs
-Wrappers for Unity components and callbacks that handle the case that a Component's GameObject may have been destroyed.
+Components for attaching a comment to a GameObject or an animator state.

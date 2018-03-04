@@ -4,7 +4,7 @@ namespace BeatThat
 {
 
 	/// <summary>
-	/// Add a comment to a GameObject
+	/// Component for adding comments to GameObjects viewable via the Unity editor Inspector.
 	/// </summary>
 	public class Comment : MonoBehaviour 
 	{
