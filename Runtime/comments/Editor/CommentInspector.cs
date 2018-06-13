@@ -1,10 +1,10 @@
-using UnityEngine;
 using UnityEditor;
+using UnityEngine;
 
-namespace BeatThat
+namespace BeatThat.Comments
 {
 
-	[CustomEditor(typeof(Comment))]
+    [CustomEditor(typeof(Comment))]
 	public class CommentInspector : UnityEditor.Editor {
 	
 		private Comment script { get { return target as Comment; }}
@@ -39,3 +39,4 @@ namespace BeatThat
 		}
 	}
 }
+
