@@ -7,7 +7,7 @@ These are very simple components, but it makes sense to install them via package
 From your unity project folder:
 
     npm init --force # only if you don't yet have a package.json file
-    npm install --save beatthat/dependency-injection
+    npm install --save beatthat/comments
 
 The package and all its dependencies will be installed under Assets/Plugins/packages.
 
