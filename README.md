@@ -1,5 +1,7 @@
 Attach comments directly to GameObjects or states in an animator.
 
+![Comment Usage](READMEfiles/images/comment-usage.gif)
+
 These are very simple components, but it makes sense to install them via package dependency to avoid duplicating code.
 
 ## Install
