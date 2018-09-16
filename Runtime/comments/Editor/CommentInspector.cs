@@ -29,7 +29,7 @@ namespace BeatThat.Comments
 			
 			string text = EditorGUILayout.TextArea(script.text, style);
 			if (text != script.text) {
-				Undo.RecordObject(script, "Edit Comments");
+				UnityEditor.Undo.RecordObject(script, "Edit Comments");
 				script.text = text;
 			}
 			
